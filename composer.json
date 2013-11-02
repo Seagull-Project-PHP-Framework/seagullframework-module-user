@@ -1,0 +1,31 @@
+{
+    "description" : "Seagull Framework User module",
+    "name" : "seagullframework/module-user",
+    "keywords" : [
+        "framework",
+        "php"
+    ],
+    "homepage" : "http://seagullproject.org/",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Demian Turner",
+            "email" : "demian@phpkitchen.com"
+        },
+        {
+            "name" : "Seagull Community",
+            "homepage" : "http://trac.seagullproject.org/wiki/Community"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.2.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "include-path" : [
+            "./src"
+    ]
+}
