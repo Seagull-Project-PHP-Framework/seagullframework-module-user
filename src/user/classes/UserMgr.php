@@ -41,9 +41,6 @@
 require_once SGL_MOD_DIR . '/user/classes/RegisterMgr.php';
 require_once SGL_MOD_DIR  . '/default/classes/DefaultDAO.php';
 require_once SGL_MOD_DIR . '/user/classes/UserDAO.php';
-require_once SGL_CORE_DIR . '/Delegator.php';
-
-require_once 'Validate.php';
 
 /**
  * Manages User objects.

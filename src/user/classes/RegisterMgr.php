@@ -40,10 +40,6 @@
 
 require_once SGL_MOD_DIR . '/user/classes/LoginMgr.php';
 require_once SGL_MOD_DIR . '/user/classes/UserDAO.php';
-require_once SGL_CORE_DIR . '/Observer.php';
-require_once SGL_CORE_DIR . '/Emailer.php';
-require_once 'Validate.php';
-require_once 'DB/DataObject.php';
 
 /**
  * Manages User objects.

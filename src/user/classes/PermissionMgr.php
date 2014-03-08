@@ -38,10 +38,8 @@
 // +---------------------------------------------------------------------------+
 // $Id: PermissionMgr.php,v 1.58 2005/05/28 13:46:30 demian Exp $
 
-require_once SGL_CORE_DIR . '/Delegator.php';
 require_once SGL_MOD_DIR  . '/default/classes/DefaultDAO.php';
 require_once SGL_MOD_DIR . '/user/classes/UserDAO.php';
-require_once 'DB/DataObject.php';
 
 /**
  * Manages user permissions.

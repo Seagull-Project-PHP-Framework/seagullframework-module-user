@@ -1,7 +1,5 @@
 <?php
 
-require_once SGL_CORE_DIR . '/Observer.php';
-
 /**
  * Records login in database.
  *
@@ -57,7 +55,6 @@ class RecordLogin extends SGL_Observer
      */
     public static function insert(&$dbh, $userId = null)
     {
-        require_once 'DB/DataObject.php';
         $tableName        = SGL_Config::get('table.login');
         $login            = DB_DataObject::factory($tableName);
         $login->login_id  = $dbh->nextId($tableName);

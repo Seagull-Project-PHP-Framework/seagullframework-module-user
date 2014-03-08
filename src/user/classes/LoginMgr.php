@@ -38,8 +38,6 @@
 // +---------------------------------------------------------------------------+
 // $Id: LoginMgr.php,v 1.34 2005/06/15 00:50:40 demian Exp $
 
-require_once SGL_CORE_DIR . '/Observer.php';
-
 /**
  * Handles user logins.
  *

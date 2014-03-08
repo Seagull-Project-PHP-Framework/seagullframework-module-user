@@ -1,5 +1,4 @@
 <?php
-require_once 'HTTP/Request.php';
 
 class GetUserGeoCode
 {
@@ -59,7 +58,6 @@ class GetUserGeoCode
 
     function insertUserGeoCode(&$observable, $latitude, $longitude, $precision)
     {
-        require_once 'DB/DataObject.php';
         $dbh = SGL_DB::singleton();
         $geo = DB_DataObject::factory($observable->conf['table']['googlemaps_user_geocode']);
         $geo->googlemaps_user_geocode_id = $dbh->nextId('googlemaps_user_geocode');

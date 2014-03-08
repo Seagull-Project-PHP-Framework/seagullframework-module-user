@@ -15,8 +15,6 @@ class EmailConfirmation extends SGL_Observer
 
     function _sendEmail($oUser, $moduleName)
     {
-        require_once SGL_CORE_DIR . '/Emailer.php';
-
         $realName = $oUser->first_name . ' ' . $oUser->last_name;
         $recipientName = (trim($realName)) ? $realName : '&lt;no name supplied&gt;';
         $options = array(
