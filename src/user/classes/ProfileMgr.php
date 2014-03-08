@@ -96,7 +96,6 @@ class ProfileMgr extends SGL_Manager
             return false;
         }
 
-        require_once 'DB/DataObject.php';
         $user = DB_DataObject::factory($this->conf['table']['user']);
         $user->get($input->userId);
         if (empty($user->role_id)) {

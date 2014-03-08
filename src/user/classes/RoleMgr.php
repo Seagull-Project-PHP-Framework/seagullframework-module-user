@@ -39,7 +39,6 @@
 // $Id: RoleMgr.php,v 1.34 2005/05/17 23:54:53 demian Exp $
 
 require_once SGL_MOD_DIR . '/user/classes/UserDAO.php';
-require_once 'DB/DataObject.php';
 
 /**
  * add to role flag

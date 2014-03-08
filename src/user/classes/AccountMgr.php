@@ -40,7 +40,6 @@
 
 require_once SGL_MOD_DIR . '/user/classes/RegisterMgr.php';
 require_once SGL_MOD_DIR . '/user/classes/UserDAO.php';
-require_once 'DB/DataObject.php';
 
 /**
  * Manages User's account.

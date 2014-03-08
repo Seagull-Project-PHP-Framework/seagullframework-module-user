@@ -240,7 +240,6 @@ class UserDAO extends SGL_Manager
      */
     function getUserById($id = null)
     {
-        require_once 'DB/DataObject.php';
         $oUser = DB_DataObject::factory($this->conf['table']['user']);
         if (!is_null($id)) {
             $oUser->get($id);

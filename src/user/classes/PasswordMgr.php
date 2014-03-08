@@ -38,9 +38,6 @@
 // +---------------------------------------------------------------------------+
 // $Id: PasswordMgr.php 2 2010-06-11 13:22:38Z ptr $
 
-require_once 'Validate.php';
-require_once 'DB/DataObject.php';
-
 /**
  * Manages passwords.
  *
